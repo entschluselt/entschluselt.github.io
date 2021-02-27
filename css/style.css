@@ -13,8 +13,8 @@ html{
     list-style-type: none;
     margin: 0;
     padding: 0;
-    width: 15%;
-    height: 100%;
+    width: 15vw;
+    height: 100vh;
     background-color: #181818;
     overflow:auto;
     position : fixed;
@@ -34,7 +34,7 @@ html{
     padding-bottom: 15px;
     text-align: center;
     background-color: rgb(36, 23, 28);
-    font-size: 150%;
+    font-size: 1.5vw;
 }
 .navbar li a:hover{
     color:rgb(133, 133, 133);
@@ -47,10 +47,9 @@ h1{
 {
     padding-left: 1%;
     padding-top: 14%;
-    font-size: 200%;
+    font-size: 2.4vw;
     font-family: defaultfont;
-    letter-spacing: 200;
-    letter-spacing: -5px;
+    letter-spacing: -0.5vw;
 }
 /* The yashdeep */
 .yashdeep{
