@@ -37,6 +37,7 @@ html{
     transition: 0.6s;
     text-transform: uppercase;
     letter-spacing: 3px;
+    font-weight:bold;
     
 }
 .navbar li a:hover{
