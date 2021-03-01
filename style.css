@@ -4,7 +4,17 @@
 */
 body{
     margin: 0;
+    background: url(assets/images/bg.jpg) no-repeat right center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size:cover;
+    background-size: cover;
+    
 }
+h1{
+    display:inline;
+}
+
 html{
     scroll-behavior: smooth;
 }
@@ -19,6 +29,7 @@ html{
     overflow:auto;
     position : fixed;
     font-family: poppin_med;
+    text-align: center;
 }
 /* Logo */
 .navbar img{
@@ -28,38 +39,51 @@ html{
 .navbar li a{
     text-decoration: none;
     display:block;
-    color:antiquewhite;
+    color: #fbc0b2;
     padding-top: 20px;
     padding-bottom: 20px;
     text-align: center;
     background-color: #181818;
     font-size: 1.5vw;
-    transition: 0.6s;
+    transition: 0.2s;
     text-transform: uppercase;
     letter-spacing: 3px;
-    font-weight:bold;
+    overflow: hidden;
     
 }
 .navbar li a:hover{
-    color: #eb0350;
-    background-color: #2196f3;
-    box-shadow: 0 0 10px #2196f3,0 0 40px #2196f3,0 0 80px #2196f3; 
+    color: #1f1c1c;
+    background-color: #ff7653;
+    box-shadow: 0 0 10px #ff7653,0 0 40px #ff7653,0 0 80px #ff7653; 
 } 
-h1{
-    display:inline;
-}
 /* The name thing */
 .intro_name 
 {
-    padding-top: 14%;
-    font-size: 2.3vw;
+    margin-top: 20vh;
+    font-size: 4vw;
     font-family: defaultfont;
-    letter-spacing: -0.3vw;
+    letter-spacing: -0.4vw;
+    color:#ffbaa9;
+    transition-duration: 2s;
 }
-/* The yashdeep */
+.intro_name h1:not(.yashdeep):hover{
+    animation-name: name;
+    animation-duration: 0.6s;
+    animation-iteration-count: infinite ;
+    animation-timing-function: linear;
+}
+@keyframes name{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 100;
+    }
+}
+/* yashdeepPart */
 .yashdeep{
-    font-weight: bolder;
-    color:red;
+    font-weight:bold;
+    color: #fb8b6e;
 }
 /* this is our container which comprises of the name and futher things  */
 #intro,
@@ -75,32 +99,17 @@ h1{
 /* social icons */
 .social i
 {
-    color:white;
+    color:#fbc0b2;
     font-size: 2vw;
     padding:1vw;
+    transition: 0.2s;
 }
 .social{
     align-content: center;
     text-align: center;
-    width: 15vw;
     padding-top:1vw;
 }
-
 .social i:hover{
-    color: #eb0350;
-    
-    box-shadow: 0 0 10px #2196f3,0 0 40px #2196f3,0 0 80px #2196f3; 
+    color: #fd6b46;
+    box-shadow: 0 0 40px #d14f2e,0 0 80px #ff7653,0 0 100px #ff7653; 
 }
-
-
-
-
-
-
-
-
-
-/*
-    Author::Yashvendra Deep Dwivedi
-    github::@entschluselt
-*/
