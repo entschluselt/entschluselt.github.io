@@ -4,12 +4,15 @@
 */
 body{
     margin: 0;
-    background: url(assets/images/bg.jpg) no-repeat right center fixed;
+    background: url(assets/images/bg.svg) no-repeat right center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size:cover;
     background-size: cover;
     
+}
+path#mountain{
+    fill:#1f1c1c;
 }
 h1{
     display:inline;
@@ -59,11 +62,13 @@ html{
 /* The name thing */
 .intro_name 
 {
-    margin-top: 20vh;
-    font-size: 4vw;
+    margin-top: 24vh;
+    font-size: 3.4vw;
+    
     font-family: defaultfont;
-    letter-spacing: -0.4vw;
+    letter-spacing: -0.86vw;
     color:#ffbaa9;
+    font-weight: lighter;
     transition-duration: 2s;
 }
 .intro_name h1:not(.yashdeep):hover{
@@ -113,3 +118,15 @@ html{
     color: #fd6b46;
     box-shadow: 0 0 40px #d14f2e,0 0 80px #ff7653,0 0 100px #ff7653; 
 }
+/* #stars{
+    animation-name: stars;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-direction:alternate;
+    animation-timing-function: linear;
+    animation-delay: both;
+}
+@keyframes stars{
+    from{transform: translateX(-100px);}
+    to{transform: translateX(100px);}
+} */
