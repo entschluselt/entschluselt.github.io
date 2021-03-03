@@ -48,7 +48,7 @@ html{
     text-align: center;
     background-color: #181818;
     font-size: 1.5vw;
-    transition: 0.2s;
+    transition: 0s;
     text-transform: uppercase;
     letter-spacing: 3px;
     overflow: hidden;
@@ -105,7 +105,7 @@ html{
 }
 /* this is our container which comprises of the name and futher things  */
 #intro,
-#about,
+#blog,
 #skills,
 #project,
 #contact
@@ -133,7 +133,7 @@ html{
     color:#fbc0b2;
     font-size: 2vw;
     padding:1vw;
-    transition: 0.2s;
+    transition: 0s;
 }
 .social{
     align-content: center;
