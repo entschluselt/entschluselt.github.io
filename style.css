@@ -62,10 +62,10 @@ html{
 /* The name thing */
 .intro_name 
 {
-    margin-top: 10vh;
-    font-size: 1.8vw;
+    margin-top: 14vh;
+    font-size: 2vw;
     font-family: roboto-mono;
-    letter-spacing: -0.4vw;
+    letter-spacing: -0.6vw;
     color:#ffbaa9;
     font-weight: lighter;
     transition-duration: 2s;
@@ -73,11 +73,11 @@ html{
 }
 .intro_name p{
     font-size: 1.6vw;
-    letter-spacing: 0;
+    letter-spacing: 0vw;
     font-family: roboto-mono;
     display: flex;
     display: inline;
-    font-weight: 400;
+    font-weight: 500;
     color: #ffd4c9;
 }
 .intro_name h1:not(.yashdeep):hover{
@@ -114,9 +114,10 @@ html{
     width:80%;
     float:right;
 }
-#intro h1 p {
+ /* h1,p {
     animation-name: intro;
     animation-delay: 2s;
+    animation-iteration-count: infinite;
 }
 @keyframes intro{
     from{
@@ -125,7 +126,7 @@ html{
     to{
         opacity: 100;
     }
-}
+} */
 /* social icons */
 .social i
 {
@@ -142,6 +143,12 @@ html{
 .social i:hover{
     color: #fd6b46;
     box-shadow: 0 0 40px #d14f2e,0 0 80px #ff7653,0 0 100px #ff7653; 
+}
+#GREY{
+    letter-spacing: 0.2vw;
+    font-weight: 500;
+    font-size: 1.3vw;
+    color: #5c5857;
 }
 /* .copy{
     color: rgb(82, 75, 75) ;
