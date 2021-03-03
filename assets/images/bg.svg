@@ -303,7 +303,7 @@
       g#commet>path{
           fill:white;
           animation-name: commet;
-          animation-duration: 2s;
+          animation-duration: 4s;
           animation-iteration-count: infinite;
           animation-timing-function: linear;
           animation-delay: both;
