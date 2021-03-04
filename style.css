@@ -66,13 +66,13 @@ html{
     font-size: 2vw;
     font-family: roboto-mono;
     letter-spacing: -0.6vw;
-    color:#ffbaa9;
+    color:#ffe4de;
     font-weight: lighter;
     transition-duration: 2s;
     padding-right: 12vw;
 }
 .intro_name p{
-    font-size: 1.6vw;
+    font-size: 1.8vw;
     letter-spacing: 0vw;
     font-family: roboto-mono;
     display: flex;
@@ -147,18 +147,26 @@ html{
 #GREY{
     letter-spacing: 0.2vw;
     font-weight: 500;
-    font-size: 1.35vw;
+    font-size: 1.4vw;
     color: #a57b6f;
 }
-/* .copy{
+.copy{
     color: rgb(82, 75, 75) ;
     position: absolute;
     bottom: 0;
     margin: 0;
     padding: 0;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: roboto-mono;
     font-size: 12px;
-} */
+    text-align: center;
+}
+.copy a{
+    text-decoration: none;
+    color: rgb(82, 75, 75);
+}
+.copy a:hover{
+    color: #fbc0b2;
+}
 /* #stars{
     animation-name: stars;
     animation-duration: 3s;
