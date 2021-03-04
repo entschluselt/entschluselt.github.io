@@ -322,7 +322,7 @@
             }
           g#stars>path{
             animation-name: stars;
-            animation-duration: 5s;
+            animation-duration: 1s;
             animation-iteration-count: infinite;
             animation-timing-function: linear;
             animation-delay: both;
