@@ -83,7 +83,7 @@ html{
     display: flex;
     display: inline;
     font-weight: 500;
-    color: #ffd4c9;
+    color: #f1b8aa;
 }
 .intro_name h1:not(.yashdeep):hover{
     animation-name: name;
@@ -106,7 +106,7 @@ html{
 /* yashdeepPart */
 .yashdeep{
     /* font-weight:bold; */
-    color: #fb8b6e;
+    color: #ec9078;
 }
 /* this is our container which comprises of the name and futher things  */
 #intro,
@@ -152,9 +152,9 @@ html{
 }
 #GREY{
     letter-spacing: 0.2vw;
-    font-weight: 500;
-    font-size: 1.5vw;
-    color: #a57b6f;
+    font-weight: 600;
+    font-size: 1.6vw;
+    color: #c38978;
 }
 .copy{
     color: rgb(70, 67, 67) ;
