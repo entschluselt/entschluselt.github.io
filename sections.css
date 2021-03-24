@@ -1,0 +1,75 @@
+/* skills section */
+#skills{
+    padding-top: 8vh;
+    font-size: 0.83vw;
+    font-family: roboto-mono;
+    letter-spacing: 0.2vw;
+    
+}
+/* styling for various icons */
+#skills div{
+    display:inline;
+}
+#skills h1{
+    text-transform: uppercase;
+    color: #ffe8e1;
+    font-weight: 500;
+    padding: 0;
+    margin: 0;
+}
+#skills p{
+    letter-spacing: 0.2vw;
+    font-weight: 600;
+    font-size: 1.6vw;
+    color: #ffb294;
+    line-height: 2.8vw;
+}
+#skills svg{
+    padding: 1.5vw;
+}
+#c path{
+    fill: #a8b9cc;
+}
+#cplusplus path{
+    fill: #00599c;
+}
+#js path{
+    fill: #f7df1e;
+}
+#css path{
+    fill: #1572b6;
+}
+#html path{
+    fill: #e34f26;
+}
+#adobeillustrator path{
+    fill: #ff9a00;
+}
+#vscode path{
+    fill: #007acc;
+}
+#figma path{
+    fill: #f24e1e;
+}
+#node path{
+    fill: #339933;
+}
+
+
+
+
+/* #GREY{
+    letter-spacing: 0.2vw;
+    font-weight: 600;
+    font-size: 1.6vw;
+    color: #c38978;
+}
+.intro_name p{
+    font-size: 1.7vw;
+    letter-spacing: 0vw;
+    font-family: roboto-mono;
+    display: flex;
+    display: inline;
+    font-weight: 500;
+    color: #ffd8ce;
+} */
