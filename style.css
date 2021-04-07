@@ -20,7 +20,7 @@ h1{
 
 html{
     scroll-behavior: smooth;
-    overflow:auto;
+    overflow:hidden;
     
 }
 /* .navbar{
@@ -60,6 +60,7 @@ html{
     text-transform: uppercase;
     letter-spacing: 3px;
     overflow: hidden;
+    transition: -0.3s;
     
 }
 .navbar li a:hover{
