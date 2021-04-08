@@ -2,16 +2,24 @@
     Author::Yashvendra Deep Dwivedi
     github::@entschluselt
 */
-path#mountain{
-    fill:#1f1c1c;
-}
 h1{
     display:inline;
+    height: 100%;
 }
 
 html{
     scroll-behavior: smooth;
-    overflow: auto;
+    overflow: hidden;
+    background-color: #000000;
+    background: url(assets/images/bg.svg) no-repeat right center fixed;
+    background-size: cover;
+}
+body{
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    scroll-behavior: smooth;
+    overflow: hidden;
 }
 /* .navbar{
     text-align: center;
